@@ -10,9 +10,9 @@
 * Unknown security standards.  Suggest implementing the following:
 
 
-  i.   mysql_secure_installation
-  ii.  SSL cert for nginX
-  iii. WordPress "Authentication Unique Keys and Salts"
+  i.   mysql_secure_installation  
+  ii.  SSL cert for nginX  
+  iii. WordPress "Authentication Unique Keys and Salts"  
 * MySQL database name changed to example_com_db from example.com_db.  Use of dots in names is highly discouraged.
 
 ## Libraries
