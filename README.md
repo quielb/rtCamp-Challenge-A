@@ -14,6 +14,7 @@
   ii.  SSL cert for nginX  
   iii. WordPress "Authentication Unique Keys and Salts"  
 * MySQL database name changed to example_com_db from example.com_db.  Use of dots in names is highly discouraged.
+* Unknow standard for script return codes.  Any non-zero return is a fail.
 
 ## Libraries
 Since the state of the host is unknown, the most commonly available tools are used in an effort to minimize dependencies.
