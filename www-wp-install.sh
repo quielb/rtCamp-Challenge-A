@@ -4,10 +4,15 @@
 ### Install and configure a WordPress instance using Nginx
 
 APT="apt-get"
+# Pakcages to install
 PKGS="nginx-full mysql-server php php-fpm php-mysql"
+# Location of WordPress install
 WP_INSTALL_DIR="/var/www/wordpress"
+# Name of the MySQL database
 DATABASE_NAME="example_com_db"
+# Database user name
 WP_USER_NAME="wordpress"
+# Database user password
 WP_USER_PASS="SomeSecurePassword"
 
 # variables to track a few installed things for potential cleanup on abort
