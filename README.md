@@ -8,6 +8,8 @@
 * Install path standards for non-packaged applications is unknown. /var/www/wordpress was used.  But can be configured in the script.
 * Unknown standard for php processing for nginX.  php-fpm (currently 7.2) was used.
 * Unknown security standards.  Suggest implementing the following:
+
+
   i.   mysql_secure_installation
   ii.  SSL cert for nginX
   iii. WordPress "Authentication Unique Keys and Salts"
